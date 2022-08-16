@@ -249,3 +249,179 @@ section .text p:nth-of-type(2){
     text-align: center;
     margin-left:42px;
 }
+.portfolio{
+    background-image: url("../images/background1.jpg");
+    min-height: 600px;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 153px;
+}
+.portfolio .sub_container{
+    max-width: 300px;
+    margin-right: 60px;
+}
+.portfolio .sub_container h3{
+    font: 14px/20px 'Poppins';
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #403E3B;
+}
+.portfolio .sub_container p{
+    font: 16px/24px 'Poppins';
+    color: #645C55;
+}
+.sec_portfolio{
+    background-image: url("../images/backgorund2.jpg");
+    min-height: 600px;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 110px;
+}
+.sec_portfolio .sub_sec_container{
+    max-width: 300px;
+    margin-right: 60px;
+}
+.sec_portfolio .sub_sec_container h3{
+    font: 14px/20px 'Poppins';
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #403E3B;
+}
+.sec_portfolio .sub_sec_container p{
+    font: 16px/24px 'Poppins';
+    color: #645C55;
+}
+.third_portfolio{
+    background-image: url("../images/background3.jpg");
+    min-height: 600px;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.third_portfolio .sub_thr_container{
+    max-width: 300px;
+    margin-left: 60px;
+}
+.sub_thr_container h3{
+    font: 14px/20px 'Poppins';
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #403E3B;
+}
+.sub_thr_container p{
+    font: 16px/24px 'Poppins';
+    color: #645C55;
+
+}
+.prior_portfolio{
+    background-color: #403E3B;
+    min-height: 410px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.prior_portfolio .prior_container{
+    justify-content: flex-start;
+    max-width: 460px;
+    margin-left: 136px;
+
+}
+.prior_container p:nth-child(1){
+    font: 14px/20px 'Poppins';
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ECE7E4;
+}
+.prior_container h4{
+    font: 32px/38px 'Poppins';
+    color: #FFFFFF;
+    margin-bottom: 14px;
+}
+.prior_container p:last-of-type{
+    font: 15px/24px 'Poppins';
+    color: #ECE7E4;
+}
+.prior_logo{
+    max-width: 1168px;
+    margin: auto;
+}
+.prior_logo .customers_container{
+    max-width: 432px;
+    align-items: center;
+    min-height: 290px;
+    flex-wrap: wrap;
+    display: flex;
+}
+.customers_container a{
+    width: 50%;
+}
+.featured{
+    background-color: #F7F7F7;
+    background-size: cover;
+    min-height: 918px;
+
+}
+.featured .txt_featured{
+    position: relative;
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+.txt{
+    max-width: 600px;
+    margin-bottom: 42px;
+}
+.txt_featured h3{
+    font: 39px/42px 'Poppins';
+    color: #1B1A1A;
+}
+.txt_featured p{
+    font: 24px/30px 'Poppins';
+    color: #645C55;
+}
+.project{
+    max-width: 1168px;
+    display: flex;
+    justify-content: space-between;
+}
+.position{
+    position: relative;
+}
+
+.txt_brewery{
+    width: 207px;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+.txt_brewery h4{
+    font: 14px/20px 'Poppins';
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #645C55;
+}
+.txt_brewery p{
+    font: 23px/30px 'Poppins';
+    color: #403E3B;
+}
+.position a:nth-child(2){
+    background: #1B1A1A;
+    text-align: center;
+    padding:11px 20px;
+    border-radius: 14px;
+    font: 16px/24px 'Poppins';
+    text-decoration:none;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 40px;
+    left: 45px;
+}
