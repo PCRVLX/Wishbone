@@ -323,20 +323,19 @@ section .text p:nth-of-type(2){
 }
 .prior_portfolio{
     background-color: #403E3B;
-    min-height: 410px;
     padding: 60px 0;
 
 }
 .prior_container{
     max-width: 1168px;
-    padding-top: 125px;
     display: flex;
     margin: auto;
     align-items: center;
-    justify-content: space-between;
 }
 .prior_txt{
-    width: 460px;
+    max-width: 460px;
+    padding-top: 75px;
+
 }
 
 .prior_txt p:first-of-type{
@@ -354,6 +353,9 @@ section .text p:nth-of-type(2){
     color: #ECE7E4;
 }
 .prior_logo{
+    max-width: 432px;
+    padding-top: 64px;
+    margin-left: 172px;
     display: flex;
     flex-wrap: wrap;
 }
