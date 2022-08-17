@@ -324,45 +324,49 @@ section .text p:nth-of-type(2){
 .prior_portfolio{
     background-color: #403E3B;
     min-height: 410px;
-    position: relative;
-    display: flex;
-    align-items: center;
-}
-.prior_portfolio .prior_container{
-    justify-content: flex-start;
-    max-width: 460px;
-    margin-left: 136px;
+    padding: 60px 0;
 
 }
-.prior_container p:nth-child(1){
+.prior_container{
+    max-width: 1168px;
+    padding-top: 125px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.prior_txt{
+    width: 460px;
+}
+
+.prior_txt p:first-of-type{
     font: 14px/20px 'Poppins';
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #ECE7E4;
 }
-.prior_container h4{
+.prior_txt h4{
     font: 32px/38px 'Poppins';
     color: #FFFFFF;
-    margin-bottom: 14px;
 }
-.prior_container p:last-of-type{
+.prior_txt p:last-of-type{
     font: 15px/24px 'Poppins';
     color: #ECE7E4;
 }
 .prior_logo{
-    max-width: 1168px;
-    margin: auto;
-}
-.prior_logo .customers_container{
-    max-width: 432px;
-    align-items: center;
-    min-height: 290px;
-    flex-wrap: wrap;
     display: flex;
+    flex-wrap: wrap;
 }
-.customers_container a{
-    width: 50%;
+.block_logo{
+    margin-bottom: 128px;
 }
+.block_logo a:first-of-type{
+    margin-right: 96px;
+}
+.block_logo2 a:first-of-type{
+    margin-right: 96px;
+}
+
 .featured{
     background-color: #F7F7F7;
     background-size: cover;
