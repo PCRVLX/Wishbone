@@ -372,6 +372,7 @@ section .text p:nth-of-type(2){
 .featured .txt_featured{
     position: relative;
     max-width: 1200px;
+    min-height: 698px;
     margin: auto;
     padding-top: 120px;
     padding-bottom: 100px;
@@ -395,6 +396,7 @@ section .text p:nth-of-type(2){
 }
 .position{
     position: relative;
+    margin-bottom: 42px;
 }
 
 .txt_brewery{
@@ -424,4 +426,13 @@ section .text p:nth-of-type(2){
     position: absolute;
     bottom: 40px;
     left: 45px;
+}
+
+.txt_featured a{
+    display: block;
+    text-align: center;
+    font: 16px/24px 'Poppins';
+    letter-spacing: 0.4px;
+    color: #1B1A1A;
+    text-decoration: none;
 }
